@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>bio</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <style>
+    a:hover{
+      color:#000000;
+      background-color:#FFFFFF;
+    }
+    body{
+    font-family:'poppins',sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <div class="w-full h-screen bg-black flex flex-col items-center justify-center">
+  <div class="flex flex-col items-center gap-2">
+  <img src="image.png" class="w-24 h-24 rounded-full border border-violet-600">
+  <h2 class="text-purple-500 font-bold text-2xl">@joaoluis</h2>
+  <p class="text-white text-sm">front-end developer|desk help|ui/ux</p>
+  </div>
+  <div class="flex flex-col text-violet-600 w-full items-center gap-5 pt-6">
+  <a class="flex w-80 h-10 border border-violet-600 text-center pt-2 rounded-full justify-around"onclick="redirect('https://www.instagram.com/joaoluis_ribeiro_?igsh=MW5qc2Ruejl4cmN1dA==')">Instagram<i class="bi bi-instagram"></i></a>
+  <a class="flex w-80 h-10 border border-violet-600 text-center pt-2 rounded-full justify-around"onclick="redirect('https://github.com/Joaoluisribeir')">Github<i class="bi bi-github"></i></a>
+  <a class="flex w-80 h-10 border border-violet-600 text-center pt-2 rounded-full justify-around"onclick="redirect('https://www.linkedin.com/in/joão-luis-ribeiro-154b17324?utm_source=share_via&utm_content=profile&utm_medium=member_android')">LinkedIn<i class="bi bi-linkedin"></i></a>
+  <a class="flex w-80 h-10 border border-violet-600  pt-2 rounded-full text-center justify-around"onclick="redirect('https://wa.me/qr/RVQ6E3BTGGKXM1')">WhatsApp<i class="bi bi-whatsapp"></i></a>
+  </div>
+  </div>
+  <script>
+  function redirect(link){
+  window.location.href = link;
+  }
+  </script>
+</body>
+</html>
